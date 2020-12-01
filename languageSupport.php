@@ -49,10 +49,12 @@ class languageSupport
                     typeof languageObject[file]!="undefined"
                     &&
                     typeof languageObject[file][key]!="undefined"
-                  )
+                  ){
                     return languageObject[file][key];
-                  else
-                    return key;  
+                  }  
+                  else{
+                    return key;
+                  }  
             };
         ';
 
