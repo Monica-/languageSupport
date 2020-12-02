@@ -31,7 +31,7 @@ This will send an object with all translations and the js function *__l(file,key
 - In wrapping blade (views/app.blade.php) add:
 >
 >
-> `<script src="/language" defer></script>`
+> `<script src="/language"></script>`
 
 Now in front, if there was an *errors.php* in '*es*' folder and user had '*es*' language, when called **__l('errors','hello')** the output is '*Hola*'.
 
